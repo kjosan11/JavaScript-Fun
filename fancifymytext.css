@@ -1,5 +1,7 @@
 body {
   background-color: azure;
+  text-align: center;
+  display: block;
 }
 h1 {
   text-align: center;
@@ -7,6 +9,7 @@ h1 {
   color: #08a1a7;
   text-shadow: darkturquoise;
 }
+
 label {
   font-size: 25px;
 }

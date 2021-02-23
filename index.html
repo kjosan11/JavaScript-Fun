@@ -15,12 +15,21 @@
 		<hr>
 
 		<!-- Your UI controls go here -->
-		<label for="text">Text</label>
-		<input type="text" id="bigText"/>
-		<button onClick="biggerText()">Bigger</button>
-		<button onClick="upperCaseText()" id="bigText">Moo</button>
-		<input type="radio" onclick="styleText()" id="styletext">FancyShmancy</input>
-		<input type="radio" onChange="removeStyle()" id="removeStyle">BoringBetty</input>
+		<div>
+			<br>
+			<label for="text"><i>Please Enter the Text you would like to Fancify below;)</i></label>
+			<br> <br>
+			<textarea name="" id="bigText" cols="60" rows="2"></textarea>
+			<br><br>
+			
+			<button onClick="biggerText()">Bigger</button>
+			<button onClick="upperCaseText()" id="bigText">Moo</button>
+			<input type="radio" id="uncheckFancy" onclick="styleText()" id="styletext">FancyShmancy</input>
+			<input type="radio" id="uncheckBoring" onChange="removeStyle()" id="removeStyle">BoringBetty</input>
+		</div>
+		
+
+	
 
 
 
